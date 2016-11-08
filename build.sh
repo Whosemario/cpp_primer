@@ -22,7 +22,7 @@ while getopts "xc" arg; do
 	esac
 done
 
-if [ $IS_CLEAR == "1" ]; then
+if [[ $IS_CLEAR == "1" ]]; then
 rm -fr ${BUILD_DIR}
 fi
 
